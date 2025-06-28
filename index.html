@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mấy anh Kam tài quãi chuỏng</title>
+    <link href="./boostrap.css" rel="stylesheet" />
+    <style>
+      .product-img {
+        height: 400 px;
+        width: 100%;
+        object-fit: cover;
+      }
+      .carousel-img {
+        height: 400px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mấy anh tài KAM</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video
+            class="d-block w-100 carousel-img"
+            autoplay
+            muted
+            loop
+            playsinline
+          >
+            <source src="clip1.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="IMG_2176.PNG"
+            class="d-block w-100 carousel-img"
+            alt="Banner 2"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="IMG_2175.PNG"
+            class="d-block w-100 carousel-img"
+            alt="Banner 3"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <div class="container mt-5">
+      <h2 class="mb-4 text-center">Dàn line up xịn xò con bò</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="thao.JPG"
+              class="card-img-top product-img"
+              alt="Product 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Thảo</h5>
+              <p class="card-text">Anh này hay dính drama bọn con nít ranh</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="khoa.jpg"
+              class="card-img-top product-img"
+              alt="Product 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Khoa</h5>
+              <p class="card-text">Anh này viết demo lẹ như súng</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              src="dat.jpg"
+              class="card-img-top product-img"
+              alt="Product 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Đạt</h5>
+              <p class="card-text">Anh này có hit "Anh hẹn em bắn Valo"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="kien.jpg"
+              class="card-img-top product-img"
+              alt="Product 4"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kiên</h5>
+              <p class="card-text">Anh này nhiệt tình, tốt bụng số dách</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="nhan.jpg"
+              class="card-img-top product-img"
+              alt="Product 5"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nhân</h5>
+              <p class="card-text">Anh này làm nhạc hay lại còn hề hước</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="phong.jpeg"
+              class="card-img-top product-img"
+              alt="Product 6"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Phong</h5>
+              <p class="card-text">Anh này hay làm nhạc sex</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-light text-center py-4 mt-5">
+      <p>&copy; 2025 MyShop. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
